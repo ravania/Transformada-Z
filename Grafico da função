@@ -1,0 +1,6 @@
+n = -10:50;
+x = 2*sin((pi/4)*n).*heaviside(n);
+stem(n, x);
+xlabel('n');
+ylabel('x(n)');
+title('Gráfico da função x(n) = 2*sin((pi/4)*n)*u(n)');
